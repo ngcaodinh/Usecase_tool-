@@ -1,0 +1,56 @@
+# =============================================================
+#  .gitignore – StarUML UseCase Generator
+# =============================================================
+
+# Source gốc - LOCAL ONLY (ngoài repo), KHONG push GitHub,
+# KHONG backup cloud. Dev tự chịu trách nhiệm backup.
+src/
+
+# Private key – KHONG commit (chi luu cuc bo tren may developer)
+tools/private-key.pem
+
+# Huong dan sinh key – chi danh cho dev (co PASSPHRASE), khong push public
+tools/HOWTO-SINH-KEY.md
+tools/license-generator.js
+tools/gen-keys.js
+tools/key-loader.js
+
+# node_modules (build tool devDeps)
+node_modules/
+package-lock.json
+
+# File backup trung gian
+main.js.bak
+*.bak
+
+# Test files (khong can thiet cho nguoi dung cuoi)
+test.js
+test-hmsvn-uc.js
+tools/verify-license.js
+
+# Spec mau (chi dung noi bo)
+HMS-VN-usecase-spec.txt
+
+# Backup folder
+backup/
+*.backup
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File menu trung gian (khong su dung, giu lai de tham khao)
+usecase-menu.json.unused
+
+

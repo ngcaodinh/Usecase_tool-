@@ -1,0 +1,25 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "type": "separator"
+        },
+        {
+          "label": "Generate Use Case Diagram...",
+          "id": "usecase-generator.generate",
+          "command": "usecase-generator:generate"
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "label": "UseCase Key",
+          "id": "usecase-generator.key",
+          "command": "usecase-generator:key"
+        }
+      ]
+    }
+  ]
+}

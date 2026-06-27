@@ -1,0 +1,32 @@
+{
+  "name": "ngcaodinh.usecase-generator",
+  "title": "UseCase Generator",
+  "displayName": "UseCase Generator",
+  "description": "Automatically generate Use Case Diagrams from text specifications. Supports UML 2.x standard with actors, use cases, include, extend, and generalization relationships. Trial 3 days + License Key.",
+  "homepage": "https://github.com/ngcaodinh/Usecase_tool-",
+  "version": "1.0.0",
+  "keywords": [
+    "uml",
+    "use-case",
+    "diagram",
+    "staruml",
+    "generator",
+    "license"
+  ],
+  "author": {
+    "name": "ngcaodinh",
+    "email": "",
+    "url": "https://github.com/ngcaodinh"
+  },
+  "license": "MIT",
+  "engines": {
+    "staruml": ">=4.0.0"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "test": "node test.js && node test-smoke.js && node test-license.js"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^5.4.3"
+  }
+}
